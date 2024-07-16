@@ -25,6 +25,7 @@ class DiscordBot {
     this.userId = userId;
 
     //MTIwMjY4OTQ5ODEyMzczMTAyNA.Ghyi5W.lfC2mx9BoDOSm02v9XUB-MSZRtGANiQcYfLj78
+    // this token is inactive, but it's an example of what the token should look like.
     discordClient =
         await Nyxx.connectGateway(this.botToken, GatewayIntents.all);
 
